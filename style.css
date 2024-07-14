@@ -647,6 +647,7 @@ a{
 	max-width: 100%
     }
     .projetos-imgs{
+	display: block;
         width: 310.034px;
         height: 203.068px;
         flex-shrink: 0;
