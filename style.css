@@ -304,6 +304,7 @@ a{
 .projetos{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     height: 100%;
     width: 100%;
     gap: 8px;
@@ -557,7 +558,7 @@ a{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     body{
         display: flex;
         flex-direction: column;
@@ -618,7 +619,7 @@ a{
     .footer{
         padding-left: 10px;
         width: 100%;
-        margin-top: 150px;
+        margin-top: 30px;
     }
     .botao{
         width: 200px;
@@ -628,21 +629,17 @@ a{
         margin-top: 0px;
     }
     .projetos{
-
-        margin-left: 10px;
-        display: flex;
+        margin-left: 20px;
+        display: block;
         justify-content: center;
         align-items: center;
     }
     .projetos-layout{
-	display: block;
         flex-direction: column;
         align-items: center;
-	gap: 30px
         justify-content: center;
     }
     .projetos-imgs{
-	margin-top: 25px;
         width: 310.034px;
         height: 203.068px;
         flex-shrink: 0;
