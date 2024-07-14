@@ -619,8 +619,7 @@ a{
     }
     .footer{
 	    display: block;
-	position: absolute;
-	bottom: 0;
+	
         padding-left: 10px;
         width: 100%;
         margin-top: 30px;
