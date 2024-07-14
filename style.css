@@ -628,6 +628,7 @@ a{
         margin-top: 0px;
     }
     .projetos{
+	margin-top: 200;
         margin-left: 10px;
         display: flex;
         justify-content: center;
@@ -641,7 +642,7 @@ a{
         justify-content: center;
     }
     .projetos-imgs{
-	margin-top: 10px;
+	margin-top: 25px;
         width: 310.034px;
         height: 203.068px;
         flex-shrink: 0;
