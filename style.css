@@ -620,6 +620,7 @@ a{
     }
     .footer{
 	display: block;
+	position: static;
 	
         padding-left: 10px;
         width: 100%;
