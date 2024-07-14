@@ -637,6 +637,7 @@ a{
 	display: block;
         flex-direction: column;
         align-items: center;
+	gap: 30px
         justify-content: center;
     }
     .projetos-imgs{
