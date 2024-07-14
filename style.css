@@ -520,12 +520,15 @@ a{
 .footer-logos{
     display: flex;
     gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
     display: block;
-    filter: grayscale(0.7);
-    width: 160px;
+    filter: grayscale(1);
+    filter: brightness(0.7);
+    width: 180px;
 }
 
 .titulo::after {
