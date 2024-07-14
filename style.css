@@ -557,7 +557,7 @@ a{
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     body{
         display: flex;
         flex-direction: column;
@@ -628,7 +628,7 @@ a{
         margin-top: 0px;
     }
     .projetos{
-	margin-top: 200px;
+
         margin-left: 10px;
         display: flex;
         justify-content: center;
