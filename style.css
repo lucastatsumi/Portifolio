@@ -641,6 +641,7 @@ a{
         justify-content: center;
     }
     .projetos-imgs{
+	padding: 10px;
         width: 310.034px;
         height: 203.068px;
         flex-shrink: 0;
