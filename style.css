@@ -618,6 +618,7 @@ a{
         width: 100%;
     }
     .footer{
+	    display: block;
 	position: absolute;
 	bottom: 0;
         padding-left: 10px;
@@ -633,8 +634,7 @@ a{
     }
     .projetos{
         margin-left: 20px;
-        display: flex;
-	flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
 	max-width: 100%
