@@ -618,9 +618,7 @@ a{
         width: 100%;
     }
     .footer{
-	    display: block;
-	    position: absolute;
-	    bottom: -50px;
+	display: block;
 	
         padding-left: 10px;
         width: 100%;
@@ -641,7 +639,7 @@ a{
 	max-width: 100%
     }
     .projetos-layout{
-        flex-direction: column;
+        display: block;
         align-items: center;
         justify-content: center;
 	max-width: 100%
