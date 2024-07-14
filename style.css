@@ -282,7 +282,7 @@ a{
 }
 
 .footer{
-    position: static;
+    position: absolute;
     left: 0;
     bottom: 0;
     display: block;
