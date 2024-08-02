@@ -306,6 +306,7 @@ a{
     align-items: flex-start;
     height: 100%;
     width: 100%;
+    margin: 50px 150px;
     gap: 8px;
     padding-top: 100px;
     
