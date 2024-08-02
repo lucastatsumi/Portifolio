@@ -638,7 +638,8 @@ a{
         display: block;
         justify-content: center;
         align-items: center;
-	max-width: 100%
+	max-width: 100%;
+	margin: 0px;
     }
     .projetos-layout{
 	display:flex;
