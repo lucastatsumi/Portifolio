@@ -152,6 +152,7 @@ a{
 .container{
 
     margin: 0px 150px;
+	padding: 0px 150px;
     position: relative;
     display: flex;
 	flex: 1;
