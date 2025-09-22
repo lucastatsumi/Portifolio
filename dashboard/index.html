@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Indicadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <main class="dashboard">
+        <header class="dashboard__header">
+            <h1 class="dashboard__title">Painel de resultados</h1>
+            <p class="dashboard__subtitle">Acompanhe os principais indicadores operacionais da sua organização em tempo real.</p>
+        </header>
+
+        <section class="dashboard__kpis" aria-labelledby="titulo-kpis">
+            <h2 id="titulo-kpis" class="dashboard__section-title">KPIs</h2>
+            <div class="dashboard__kpi-grid">
+                <article class="dashboard__kpi-card">
+                    <span class="dashboard__kpi-label">Empresas ativas</span>
+                    <strong class="dashboard__kpi-value">128</strong>
+                    <span class="dashboard__kpi-trend">+5 este mês</span>
+                </article>
+                <article class="dashboard__kpi-card">
+                    <span class="dashboard__kpi-label">Novos acionistas</span>
+                    <strong class="dashboard__kpi-value">42</strong>
+                    <span class="dashboard__kpi-trend">+12% vs. mês anterior</span>
+                </article>
+                <article class="dashboard__kpi-card">
+                    <span class="dashboard__kpi-label">Atos registrados</span>
+                    <strong class="dashboard__kpi-value">311</strong>
+                    <span class="dashboard__kpi-trend">+34 na última semana</span>
+                </article>
+                <article class="dashboard__kpi-card">
+                    <span class="dashboard__kpi-label">Pendências</span>
+                    <strong class="dashboard__kpi-value">18</strong>
+                    <span class="dashboard__kpi-trend is-negative">-7% desde ontem</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="dashboard__quick-actions" aria-labelledby="titulo-acoes">
+            <h2 id="titulo-acoes" class="dashboard__section-title">Ações rápidas</h2>
+            <p class="dashboard__quick-actions-description">Execute tarefas frequentes em apenas um clique. Todos os botões estão alinhados ao início para facilitar o acesso imediato.</p>
+            <div class="dashboard__quick-actions-wrapper">
+                <button type="button" class="dashboard__quick-action-button">Cadastrar empresa</button>
+                <button type="button" class="dashboard__quick-action-button">Novo acionista</button>
+                <button type="button" class="dashboard__quick-action-button">Registrar ato</button>
+                <button type="button" class="dashboard__quick-action-button">Emitir relatório</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="dashboard__footer">
+        © 2024 Lucas Fuzinaga — Painel administrativo
+    </footer>
+</body>
+</html>
