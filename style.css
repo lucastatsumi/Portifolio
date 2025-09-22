@@ -309,56 +309,7 @@ a{
     margin: 50px 150px;
     gap: 8px;
     padding-top: 100px;
-
-}
-
-.registros-atos-card{
-    margin-top: 32px;
-    padding: 24px;
-    border-radius: 16px;
-    border: 2px solid #57A4FF;
-    background: rgba(20, 46, 80, 0.35);
-    backdrop-filter: blur(2px);
-    max-width: 720px;
-}
-
-.registros-atos-titulo{
-    color: #F6F6F6;
-    font-family: "Do Hyeon";
-    font-size: 28px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-}
-
-.registros-atos-descricao{
-    color: #F6F6F6;
-    font-family: Lato;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0;
-}
-
-.registros-atos-lista{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding: 0;
-    margin: 20px 0 0 0;
-}
-
-.registros-atos-item{
-    padding: 10px 18px;
-    border-radius: 999px;
-    border: 1px solid #57A4FF;
-    background: rgba(87, 164, 255, 0.15);
-    color: #F6F6F6;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    
 }
 
 .projetos-layout{
@@ -687,27 +638,13 @@ a{
         display: block;
         justify-content: center;
         align-items: center;
-        max-width: 100%;
-        margin: 0px;
-    }
-    .registros-atos-card{
-        width: 100%;
-        margin: 24px 0;
-        padding: 20px;
-    }
-    .registros-atos-descricao{
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .registros-atos-item{
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding: 8px 14px;
+	max-width: 100%;
+	margin: 0px;
     }
     .projetos-layout{
-        display:flex;
-        gap: 30px;
-        flex-direction: column;
+	display:flex;
+	gap: 30px;
+	flex-direction: column;
         align-items: center;
         justify-content: center;
 	max-width: 100%
